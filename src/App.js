@@ -30,8 +30,8 @@ function App() {
   return (
     <div className="App">
       <div className="input-group">
-        <input type="text" name="title" className="add-input input-body" value={content} onChange={onChangeContent} />
-        <button className="add-button" type="submit" onClick={addTodoHandler}>추가하기</button>
+        <input type="text" name="title" className="input-body" value={content} onChange={onChangeContent} />
+        <button type="submit" onClick={addTodoHandler}>추가하기</button>
       </div>
       <h1 className='title'>Todo List</h1>
       <div className='todo-container'>
